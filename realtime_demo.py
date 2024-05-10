@@ -1,6 +1,6 @@
 """
-	"XFeat: Accelerated Features for Lightweight Image Matching, CVPR 2024."
-	https://www.verlab.dcc.ufmg.br/descriptors/xfeat_cvpr24/
+    "XFeat: Accelerated Features for Lightweight Image Matching, CVPR 2024."
+    https://www.verlab.dcc.ufmg.br/descriptors/xfeat_cvpr24/
 
     Real-time homography estimation demo. Note that scene has to be planar or just rotate the camera for the estimation to work properly.
 """

@@ -1,6 +1,6 @@
 """
-	"XFeat: Accelerated Features for Lightweight Image Matching, CVPR 2024."
-	https://www.verlab.dcc.ufmg.br/descriptors/xfeat_cvpr24/
+    "XFeat: Accelerated Features for Lightweight Image Matching, CVPR 2024."
+    https://www.verlab.dcc.ufmg.br/descriptors/xfeat_cvpr24/
 
     Minimal example of how to use XFeat.
 """
@@ -30,7 +30,7 @@ print("----------------\n")
 x = torch.randn(1,3,480,640)
 # Stress test
 for i in tqdm.tqdm(range(100), desc="Stress test on VGA resolution"):
-	output = xfeat.detectAndCompute(x, top_k = 4096)
+    output = xfeat.detectAndCompute(x, top_k = 4096)
 
 # Batched mode
 x = torch.randn(4,3,480,640)
